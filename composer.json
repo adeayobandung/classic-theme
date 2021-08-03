@@ -2,6 +2,7 @@
     "name": "rozaka/classictheme",
     "description": "ApplicationClassicalTheme",
     "type": "library",
+    "license": "GPL-3.0+",
     "autoload": {
         "psr-4": {
             "Rozaka\\Classictheme\\": "src/"
