@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Rozaka\\ClassicTheme\\' => array($baseDir . '/src'),
+    'Rozaka\\Classictheme\\' => array($baseDir . '/src'),
 );

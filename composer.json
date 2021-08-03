@@ -1,11 +1,11 @@
 {
-    "name": "rozaka/classic-theme",
-    "description": "Application classical theme",
+    "name": "rozaka/classictheme",
+    "description": "ApplicationThemeClassic",
     "type": "library",
     "license": "GPL",
     "autoload": {
         "psr-4": {
-            "Rozaka\\ClassicTheme\\": "src/"
+            "Rozaka\\Classictheme\\": "src/"
         }
     },
     "authors": [
