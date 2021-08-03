@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assessment Center Polri</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/table.css">
+  <link rel="stylesheet" href="assets/css/pagination.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <div id="back-header">
+        <img src="assets/images/logo-dac.png" alt="">
+
+        <div id="info-apps">
+          <h2>DATA ASSESSMENT CENTER POLRI</h2>
+          <p>Jl. Trunojoyo No.3, Jakarta Selatan
+            Daerah Khusus Ibukota Jakarta 12110</p>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <div id="menu-header">
+        <ul id="menu">
+          <li class="parent">
+            <a href="#">
+              <span class="icon-menu">
+                <img src="assets/icons/app2.png" alt="">
+              </span>DASHBOARD
+            </a>
+          </li>
+          <li class="parent">
+            <a href="#">
+              <span class="icon-menu">
+                <img src="assets/icons/folder_open.png" alt="">
+              </span>ADMINISTRATOR
+            </a>
+            <ul class="child">
+              <li class="parent"><a href="#">Master Data<span class="expand">»</span></a>
+                <ul class="child">
+                <li><a href="#" nowrap>Kelola Data Pangkat</a></li>
+                <li><a href="#" nowrap>Kelola Data Jabatan</a></li>
+                <li><a href="#" nowrap>Kelola Data Satuan</a></li>
+                </ul>
+              </li>			
+              <li><a href="#">Kelola Data Akun</a></li>
+              <li class="parent"><a href="#">Data Personel<span class="expand">»</span></a>
+                <ul class="child">
+                <li><a href="#" nowrap>Data Semua Personel</a></li>
+                <li><a href="#" nowrap>Pencarian Data</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Data Semua Giat Assessment</a></li>
+              <li class="parent"><a href="#">Input Data Asesi <span class="expand">»</span></a>
+                <ul class="child">
+                <li><a href="#">Input Manual Data Asesi</a></li>
+                <li><a href="#">Import Data Assessment</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="parent">
+            <a href="#">
+              <span class="icon-menu">
+                <img src="assets/icons/epiphany_bookmarks.png" alt="">
+              </span>DATA ASSESSMENT
+            </a>
+            <ul class="child">
+              <li><a href="#">Pencarian Data</a></li>
+              <li><a href="#">Data Asesi</a></li>
+              <li><a href="#">Data Asesor</a></li>
+            </ul>
+          </li>
+          <li class="parent">
+            <a href="#">
+              <span class="icon-menu">
+                <img src="assets/icons/help_about.png" alt="">
+              </span>DATA PENDAFTARAN
+            </a>
+            <ul class="child">			
+              <li><a href="#">Data Semua Pendaftaran</a></li>
+              <li><a href="#">Pencarian Data Pendaftaran</a></li>
+            </ul>
+          </li>
+          <li class="parent">
+            <a href="#">
+              <span class="icon-menu">
+                <img src="assets/icons/dialog_question.png" alt="">
+              </span>SELF ASSESSMENT
+            </a>
+            <ul class="child">
+              <li class="parent"><a href="#">Kelola Modul KP <span class="expand">»</span></a>
+                <ul class="child">
+                <li><a href="#">Kelola Item Soal</a></li>
+                <li><a href="#">Kelola Data Soal</a></li>
+                <li><a href="#">Kelola Kategori Hasil</a></li>
+                <li><a href="#">Kelola Deskripsi Hasil</a></li>
+                </ul>
+              </li>
+              <li class="parent"><a href="#">Kelola Modul PKM <span class="expand">»</span></a>
+                <ul class="child">
+                <li><a href="#">Kelola Utama Soal</a></li>
+                <li><a href="#">Kelola Potensi Soal</a></li>
+                <li><a href="#">Kelola Data Soal</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Data Master Tes</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div style="clear: both;"></div>
+      </div>
+      <div id="info-header">
+        <div id="info-left">Selamat Datang, Ade Indra Saputra <b>[Administrator]</b></div>
+        <div id="info-right">Selasa, 7 Maret 2020 - 09:00:00</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+    <div id="motif">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#81c3d7" fill-opacity="0.3" d="M0,224L30,218.7C60,213,120,203,180,186.7C240,171,300,149,360,149.3C420,149,480,171,540,181.3C600,192,660,192,720,160C780,128,840,64,900,37.3C960,11,1020,21,1080,32C1140,43,1200,53,1260,80C1320,107,1380,149,1410,170.7L1440,192L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+    </div>
+    <div id="content">
+      <div class="tools" style="height:60px;">
+        <div class="tool-left">
+          <h3 style="margin-top:15px;">DASHBOARD</h3>
+          <p>Pengelolan Data Personel</p>
+        </div>
+        <div class="tool-right">
+          <div class="control">
+            <a href="">
+              <div class="icon">
+                <img src="assets/icons/refresh.png" alt="">
+              </div>
+              <span>Refresh</span>
+            </a>
+            <a href="form.html">
+              <div class="icon">
+                <img src="assets/icons/add_card.png" alt="">
+              </div>
+              <span>Tambah</span>
+            </a>
+            <a href="">
+              <div class="icon">
+                <img src="assets/icons/print.png" alt="">
+              </div>
+              <span>Cetak</span>
+            </a>
+          </div>
+          <div style="clear: both;"></div>
+        </div>
+      </div>
+
+      <div class="tools">
+        <div class="tool-left">
+          <select name="" id="">
+            <option value="10">10</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="1000">1000</option>
+          </select>
+          <button type="button" class="btn">
+            <span class="icon-btn">
+              <img src="assets/icons/search.png">
+            </span>
+            Go
+          </button>
+        </div>
+        <div class="tool-right">
+          <table class="no-border">
+            Cari: <input type="text" placeholder="Ketik pencarian..."> 
+            <button type="button" class="btn">
+              <span class="icon-btn">
+                <img src="assets/icons/search.png">
+              </span>
+              Cari
+            </button>
+          </table>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <table class="table hover striped">
+        <tr>
+          <th colspan="5" class="blue">DAFTAR PERSONEL</th>
+        </tr>
+        <tr>
+          <th class="gradient text-center">#</th>
+          <th class="gradient">COMPANY</th>
+          <th class="gradient">CONTACT</th>
+          <th class="gradient">COUNTRY</th>
+          <th class="gradient">AKSI</th>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>Alfreds Futterkiste<br>
+            <small>NRP: 808080</small>
+          </td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>Berglunds snabbköp</td>
+          <td>Christina Berglund</td>
+          <td>Sweden</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>Ernst Handel</td>
+          <td>Roland Mendel</td>
+          <td>Austria</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>Island Trading</td>
+          <td>Helen Bennett</td>
+          <td>UK</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>Königlich Essen</td>
+          <td>Philip Cramer</td>
+          <td>Germany</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>Laughing Bacchus Winecellars</td>
+          <td>Yoshi Tannamuri</td>
+          <td>Canada</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+          <td>Italy</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>North/South</td>
+          <td>Simon Crowther</td>
+          <td>UK</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>Paris spécialités</td>
+          <td>Marie Bertrand</td>
+          <td>France</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>Paris spécialités</td>
+          <td>Marie Bertrand</td>
+          <td>France</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>Paris spécialités</td>
+          <td>Marie Bertrand</td>
+          <td>France</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center"><input type="checkbox"></td>
+          <td>Paris spécialités</td>
+          <td>Marie Bertrand</td>
+          <td>France</td>
+          <td class="text-center">
+            <a href="#" class="action">
+              <img src="assets/icons/stop_2.png">
+            </a>
+            <a href="#" class="action">
+              <img src="assets/icons/write.png">
+            </a>
+          </td>
+        </tr>
+        <!-- <tr>
+          <th class="gradient text-center">#</th>
+          <th class="gradient">Company</th>
+          <th class="gradient">Contact</th>
+          <th class="gradient">Country</th>
+          <th class="gradient">Country</th>
+        </tr> -->
+      </table>
+      <div class="tools">
+        <div class="tool-left">
+          <select name="" id="">
+            <option value="">- Pilih Aksi -</option>
+            <option value="hapus">Hapus</option>
+          </select>
+          <button type="button" class="btn">
+            <span class="icon-btn">
+              <img src="assets/icons/symbol_check.png">
+            </span>
+            Proses
+          </button> 
+          | <span class="showing">Showing 1 To 2 of 2 results</span>
+        </div>
+        <div class="tool-right">
+          <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+          </div>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+    <div id="footer">
+      <p>copyright &copy; 2021 - IT SSDM POLRI</p>
+      <div style="clear: both;"></div>
+    </div>
+  </div>
+</body>
+</html>

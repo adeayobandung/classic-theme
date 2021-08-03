@@ -1,0 +1,19 @@
+{
+    "name": "rozaka/classic-theme",
+    "description": "Application classical theme",
+    "type": "library",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Rozaka\\ClassicTheme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ade Indra Saputra",
+            "email": "adeayobandung@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
