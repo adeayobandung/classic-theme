@@ -161,7 +161,9 @@ input[type=password]:hover
     border: 1px solid #ddd !important;
 }
 
-input[type=text], .btn {
+input[type=text], 
+input[type=password], 
+.btn {
     padding: 4px 5px;
 }
 
