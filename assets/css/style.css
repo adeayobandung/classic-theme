@@ -141,6 +141,7 @@ html, * {
 /* input */
 input[type=text], 
 input[type=password], 
+textarea,
 select, 
 .btn {
     font-size: 12px;
@@ -148,14 +149,18 @@ select,
 }
 
 input[type=text]:focus, 
-input[type=password]:focus
+input[type=password]:focus,
+textarea:focus,
+select:focus
 {
     background-color: #fbfaa7;
     border: 1px solid rgb(248, 165, 98) !important;
 }
 
 input[type=text]:hover, 
-input[type=password]:hover
+input[type=password]:hover,
+textarea:hover,
+select:hover
 {
     background-color: #fbfaa7;
     border: 1px solid #ddd !important;
@@ -163,6 +168,7 @@ input[type=password]:hover
 
 input[type=text], 
 input[type=password], 
+textarea,
 .btn {
     padding: 4px 5px;
 }
